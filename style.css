@@ -1,0 +1,78 @@
+ body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        background-color: #f9f9f9;
+        color: blue;
+      }
+      img.profile-pic {
+        width: 100px;
+	height: 100px;
+	border-radius: 50%;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        margin: 10px 0;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        margin-top: 40px;
+      }
+      i {
+        margin-right: 8px;
+      }
+	  h1, h2, h3 {
+  font-family: "Helvetica", sans-serif; /* if all headers use Helvetica */
+ text-align: center;
+}
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+h1 {
+  color: red;
+}
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  justify-items: center;
+  margin: 40px; /* will put 80px of margin everywhere */
+padding: 40px; /* will put 40px of padding everywhere */
+}
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+button{
+	background:blue;
+	
+}
+	
+	
